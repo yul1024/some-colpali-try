@@ -15,7 +15,7 @@ processor = ColQwen2_5_Processor.from_pretrained(r"D:\model\vidore\colqwen2.5-v0
 # Your inputs
 images = [
     Image.new("RGB", (32, 32), color="white"),
-    Image.new("RGB", (16, 16), color="black"),
+    Image.new("RGB", (32, 32), color="black"),
 ]
 queries = [
     "Is attention really all you need?",
